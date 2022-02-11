@@ -1,0 +1,26 @@
+# to Generate Student Result.
+a = int(input("S.no: "))
+b = input("Enter Student Name: ")
+c = input("Group: ")
+s1 = int(input("Maths marks: "))
+s2 = int(input("Physics marks: "))
+s3 = int(input("computer marks: "))
+s4 = int(input("English marks: "))
+s5 = int(input("Telugu marks: "))
+s6 = int(input("ee marks: "))
+Total = s1+s2+s3+s4+s5+s6
+Avg=Total/6
+if s1<35 or s2<35 or s3<35 or s4<35 or s5<35 or s6<35:
+    print('Fail')
+elif Avg>91:
+    print("O-Grade")
+elif Avg>=81:
+    print("A-Grade")
+elif Avg>=71:
+    print("B-Grade")
+elif Avg>=61:
+    print("C-Grade")
+elif Avg>=51:
+    print("D-Grade")
+elif avg>=41:
+    print('pass')
